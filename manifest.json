@@ -1,0 +1,27 @@
+{
+  "manifest_version": 2,
+
+  "name": "Codeforces Comments Collapser",
+  "description": "This extension enables to collapse blog comments on Codeforces. This extension is not in any way linked officially with Codeforces. Made by Chirag Jain. Note: This plugin uses unaltered jquery-3.1.0-slim.min.js",
+  "version": "1.0",
+  "content_scripts": [
+    {
+      "matches": ["http://codeforces.com/blog/entry/*"],
+      "js": ["jquery310slim.min.js","ccc.js"],
+      "css": ["ccc.css"]
+    }
+  ],
+  "icons": { 
+      "16": "icon16.png",
+      "48": "icon48.png"
+  },
+  "browser_action": {
+    "default_icon": "icon16.png",
+    "default_popup": "popup.html",
+    "default_title": "Codeforces Comments Collapser"
+  },
+  "permissions": [
+    "activeTab"
+
+  ]
+}
