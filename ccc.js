@@ -1,8 +1,8 @@
 $(function() {
 	$('body').append('<div class="work-snackbar">CCC Processing...</div>')
 	$(".comment-no-indent").remove();
-    $(".comment").wrap("<div class='collapser-div'></div>");
-    $(".comment").addClass("thread-border");
+	$(".comment").wrap("<div class='collapser-div'></div>");
+	$(".comment").addClass("thread-border");
 	var collapse_html = "<td class='ccc-cell-fix'><a href='#' class='collapser-control'>[-]</a></td>";
 	var expand_html = "<div class='expander-control-div thread-border' style='display:none;'><a href='#' class='expander-control'>[+]</a> &nbsp; ";
 	$(".collapser-div").each(function(i){
