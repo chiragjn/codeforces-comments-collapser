@@ -3,5 +3,4 @@
 Add-on/Extension for Chrome/Mozilla
 Coming Soon to Mozilla Store and Chrome Web Store
 
-![Screenshot]
-(https://raw.githubusercontent.com/chiragjn/codeforces-comments-collapser/master/screen_rec.gif)
+![Screenshot](https://raw.githubusercontent.com/chiragjn/codeforces-comments-collapser/master/screen_rec.gif)
