@@ -1,0 +1,36 @@
+.work-snackbar{
+    position:fixed;
+    color:white;
+    background-color: black;
+    padding:5px;
+    bottom:10px;
+    left:10px;
+    z-index:1000;
+    border-radius:3px;
+}
+
+.expander-control-div{
+    padding-left: 5px;
+}
+
+.collapser-control,.expander-control{
+    text-decoration: none;
+}
+.collapser-control:hover,.expander-control:hover{
+    color:red;
+    text-decoration: none;
+}
+
+.comment-collapsed-message{
+    color:#ccc;
+    font-size:12px;
+}
+
+.ccc-cell-fix{
+    margin: 5px 0;
+    width: 8px;
+}
+
+.thread-border{
+    border-left: 1px solid #ccc;
+}

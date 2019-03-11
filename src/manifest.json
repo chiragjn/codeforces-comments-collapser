@@ -5,8 +5,8 @@
   "version": "1.0.1",
   "content_scripts": [
     {
-      "matches": ["http://codeforces.com/blog/entry/*"],
-      "js": ["jquery310slim.min.js","ccc.js"],
+      "matches": ["http://codeforces.com/blog/entry/*", "https://codeforces.com/blog/entry/*"],
+      "js": ["jquery310slim.min.js", "ccc.js"],
       "css": ["ccc.css"]
     }
   ],
